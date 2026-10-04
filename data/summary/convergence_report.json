@@ -1,0 +1,46 @@
+{
+  "candidate_D": 32,
+  "reference_D": 40,
+  "energy_tolerance_per_site": 1e-05,
+  "energy_abs_difference_per_site": 4.142070045731749e-06,
+  "energy_pass": true,
+  "entropy_absolute_tolerance": 0.005,
+  "entropy_sigma_factor": 2.0,
+  "entropy_checks": [
+    {
+      "alpha": 2.0,
+      "mean_candidate": 0.24312707295564578,
+      "mean_reference": 0.2327583999208007,
+      "abs_difference": 0.010368673034845094,
+      "allowed_difference": 0.018893303623337118,
+      "pass": true
+    },
+    {
+      "alpha": 2.5,
+      "mean_candidate": 0.22552273355690103,
+      "mean_reference": 0.214997296047605,
+      "abs_difference": 0.01052543750929602,
+      "allowed_difference": 0.018638484763486826,
+      "pass": true
+    },
+    {
+      "alpha": 3.0,
+      "mean_candidate": 0.213986157983977,
+      "mean_reference": 0.20347427067398544,
+      "abs_difference": 0.010511887309991558,
+      "allowed_difference": 0.01834925994304501,
+      "pass": true
+    },
+    {
+      "alpha": 4.0,
+      "mean_candidate": 0.19977625358126339,
+      "mean_reference": 0.18942750108277912,
+      "abs_difference": 0.01034875249848427,
+      "allowed_difference": 0.017839300106712478,
+      "pass": true
+    }
+  ],
+  "entropy_pass": true,
+  "overall_pass": true,
+  "interpretation": "Candidate is numerically supported at the stated tolerances against the next larger D."
+}
